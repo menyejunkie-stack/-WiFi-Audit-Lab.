@@ -76,7 +76,7 @@ class MainActivity : Activity() {
             }
             override fun onStartTrackingTouch(seekBar: SeekBar?) {}
             override fun onStopTrackingTouch(seekBar: SeekBar?) {}
-        }
+        })
         refreshEstimate()
         root.addView(Button(this).apply {
             text = "Buat password acak"
